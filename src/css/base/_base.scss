@@ -12,7 +12,7 @@ html {
 
 .container {
   display: grid;
-  grid-template-columns: mimmax(6rem, 1fr) repeat(8, minmax(min-content, 16rem)) minmax(6rem, 1fr);
+  grid-template-columns: minmax(6rem, 1fr) repeat(8, minmax(min-content, 16rem)) minmax(6rem, 1fr);
   grid-template-rows: repeat(4, min-content);
   grid-gap: 1.6rem;
   background-color: color(tertiary);
